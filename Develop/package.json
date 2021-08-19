@@ -1,15 +1,30 @@
 {
   "name": "note-taker",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.1",
+  "description": "Making a note taker app",
   "main": "server.js",
-  "scripts": {
-    "test": "jest --watch"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
+    "compression": "^1.7.4",
     "express": "^4.17.1",
     "jest": "^27.0.6"
-  }
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest --watch",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kittytaylor55/Note-Taker.git"
+  },
+  "keywords": [
+    "note",
+    "taker"
+  ],
+  "author": "Crystal Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kittytaylor55/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/kittytaylor55/Note-Taker#readme"
 }
