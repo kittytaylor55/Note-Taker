@@ -6,7 +6,8 @@
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
-    "jest": "^27.0.6"
+    "jest": "^27.0.6",
+    "uuidv4": "^6.2.12"
   },
   "devDependencies": {},
   "scripts": {
